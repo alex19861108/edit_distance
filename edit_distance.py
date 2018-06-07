@@ -1,3 +1,6 @@
+import np
+
+
 def edit_distance(pred, label, normalize=False):
     if pred == label:
         return 0
